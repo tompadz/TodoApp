@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TodoApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorOnPrimary">@color/font</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/blue</item>
+        <item name="colorOnSecondary">@color/dark_blue</item>
+
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/font</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/light_blue</item>
+        <item name="android:statusBarColor">@color/light_blue</item>
+        <item name="floatingActionButtonStyle">@style/FABStyle</item>
+        <item name="checkboxStyle">@style/CheckBoxStyle</item>
+    </style>
+    
+    <style name="FABStyle" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/blue</item>
+        <item name="tint">@color/dark_blue</item>
+    </style>
+
+    <style name="CheckBoxStyle" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="buttonTint">@color/dark_blue</item>
+        <item name="android:textColor">@color/font</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>
